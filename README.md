@@ -167,4 +167,29 @@ Tools like pip and build do not convert your sources into a distribution package
 
 You can choose from several backends; this tutorial uses Hatchling by default, but it will work identically with Setuptools, Flit, PDM, and others that support the [project] table for metadata.
 
+## Manipulations in the command window 在命令行中的操作
+these are some useful manipulations in the command window:
+
+    C:\Users\jxzou>py -m pip install --upgrade pip
+    Requirement already satisfied: pip in c:\users\jxzou\appdata\local\programs\python\python312\lib\site-packages (23.2.1)
+
+and also:
+
+    C:\Users\jxzou\base-folder>dir
+    驱动器 C 中的卷是 Windows-SSD
+    卷的序列号是 741E-4DE7
+
+    C:\Users\jxzou\base-folder 的目录
+
+    2024/02/20  18:00    <DIR>          .
+    2024/02/20  17:59    <DIR>          ..
+    2024/02/20  18:00    <DIR>          libname
+                   0 个文件              0 字节
+                   3 个目录 101,417,869,312 可用字节
+
+and also:
+
+    C:\Users\jxzou>cd base-folder/
+    C:\Users\jxzou\base-folder>
+    
  
