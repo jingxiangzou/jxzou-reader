@@ -162,7 +162,7 @@ You can then reference this file in pyproject.toml to make the license visible o
 ## What is a Virtual Environment (venv)?
  "Virtual Environment". It provides an isolated environment wherein you can download a different version of Python packages and run it for your project. Hence, do not put anything inside your virtual environment. Keep it clean.
 
-## Very important: We need a Backend
+## Very important: We need a build backend
 Tools like pip and build do not convert your sources into a distribution package (like a wheel); that job is performed by a build backend. The build backend determines how your project will specify its configuration, including metadata (information about the project, for example, the name and tags that are displayed on PyPI) and input files. Build backends have different levels of functionality, such as whether they support building extension modules, and you should choose one that suits your needs and preferences.
 
 You can choose from several backends; this tutorial uses Hatchling by default, but it will work identically with Setuptools, Flit, PDM, and others that support the [project] table for metadata.
